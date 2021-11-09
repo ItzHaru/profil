@@ -14,7 +14,8 @@ body {
 }
 
 /* nadpis */
-.nadpis {
+
+/* .nadpis {
   top: 0;
   left: 0;
   width: 100%;
@@ -27,6 +28,7 @@ body {
   align-items: center;
   justify-content: center;
 } 
+*/
 
 /*
 .nadpis {
@@ -155,3 +157,60 @@ a {
   }
 }
 
+/* nadpis responsive */
+
+/* nadpis */
+.nadpis {
+  top: 45%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 90px;
+  text-shadow: 6px 3px 3px #000000;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+} 
+
+
+@media only screen and (max-width: 780px){
+  .nadpis {
+    top: 20% !important;
+    font-size: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fborder {
+    border-left: none !important;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .nadpis {
+    top: 15% !important;
+    font-size: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .nadpis {
+    top: 15% !important;
+    font-size: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nadpis {
+    top: 15% !important;
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .nadpis {
+    top: 15% !important;
+    font-size: 30px !important;
+  }
+}
