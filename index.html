@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Profilová stránka</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="img/army-icon.png">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a class="navbar-brand" href="#"><img src="img/army-logo.png" height="40" alt="BTS"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="odkazy.html">Odkazy<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <img class="text-center responsive" src="img/bts.jpg" alt="BTS">
+        <h1 class="text-center nadpis responsive t-responsive">Profilová stránka</h1>
+    </header>
+    <main class="container pt-3">
+        <div class="gyeong">
+            <h2 class="text-center">O mně</h2>
+            <div class="container-fluid">
+                <p>Jmenuji se Růženka Perinová.</p>
+                <p>Studuji obor IT na střední průmyslové a umělecké škole v Opavě.</p>
+            </div>
+        </div>
+        <div class="gyeong">
+            <h2 class="text-center">Projekty</h2>
+            <div class="container-fluid">
+                <h3>IT1</h3>
+                <hr>
+                <div class="row">
+                    <div class="p-1 ml-2">
+                        <div class="card" style="width: 21rem;">
+                            <img class="card-img-top" src="img/projekt1.png" alt="První projekt">
+                            <div class="card-body">
+                                <h5 class="card-title">Programy a data</h5>
+                                <p class="card-text">Webové stránky - pololetní projekt</p>
+                                <a href="https://itzharu.github.io/programy-a-data/" class="btn" target="blank">Odkaz na
+                                    stránku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-1 ml-2">
+                        <div class="card" style="width: 21rem;">
+                            <img class="card-img-top" src="img/projekt2.png" alt="Druhý projekt">
+                            <div class="card-body">
+                                <h5 class="card-title">WWW</h5>
+                                <p class="card-text">Výuková stránka WWW (World Wide Web)</p>
+                                <a href="https://itzharu.github.io/www/" class="btn" target="blank">Odkaz na stránku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-1 ml-2">
+                        <div class="card" style="width: 21rem;">
+                            <img class="card-img-top" src="img/projekt3.png" alt="Třetí projekt">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML</h5>
+                                <p class="card-text">Tabulky, multimédia a fotogalerie v HTML</p>
+                                <a href="https://itzharu.github.io/html/multimadia.html" class="btn"
+                                    target="blank">Odkaz na
+                                    stránku</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-1 ml-2">
+                        <div class="card" style="width: 21rem;">
+                            <img class="card-img-top" src="img/projekt4.png" alt="čtvrtý projekt">
+                            <div class="card-body">
+                                <h5 class="card-title">BTS</h5>
+                                <p class="card-text">Ročníkový projekt - BTS (방탄소년단)</p>
+                                <a href="https://itzharu.github.io/BTS/index.html" class="btn" target="blank">Odkaz na
+                                    stránku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="mt-2">IT2</h3>
+                <hr>
+                <div class="row">
+                    <div class="p-1 ml-2">
+                        <div class="card" style="width: 21rem;">
+                            <img class="card-img-top" src="img/projekt5.png" alt="První projekt">
+                            <div class="card-body">
+                                <h5 class="card-title">Základy JS</h5>
+                                <p class="card-text">Základy o JavaScriptu</p>
+                                <a href="https://itzharu.github.io/zakladyjs/" class="btn" target="blank">Odkaz na
+                                    stránku</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </main>
+    <footer class="text-center bg text-light container-fluid p-3">
+        <div class="f row">
+            <div class="col-md-6 text-left noselect">
+                &copy; 2021 - Růženka Perinová IT2 <i id="email" class="pl-2 fas fa-envelope"></i> <span class="email" id="emailText">it2019@sspu-opava.cz</span>
+            </div>
+            <script>
+                const email = document.getElementById('email');
+                const emailText = document.getElementById('emailText');
+                let cislo = 0;
+
+                email.addEventListener('click', function() {
+                    emailText.classList.toggle('email');
+                });
+            </script>
+            <div class="fborder border-left col-md-6 text-left">
+            <a href="https://github.com/ItzHaru" target="blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.sspu-opava.cz/cs/" target="blank"><i class="fas fa-school"></i></a>
+            <a href="https://www.instagram.com/itzh4ru/" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9a71760520.js" crossorigin="anonymous"></script>
+</body>
+</html>

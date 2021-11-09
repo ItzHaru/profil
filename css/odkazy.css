@@ -1,0 +1,114 @@
+main {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+.navbar {
+    background-color: rgb(4, 4, 4);
+}
+
+.bg {
+    background-color: rgb(3, 3, 3);
+}
+
+/* smooth scroll */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* border */
+
+.gyeong {
+    border: 1px solid rgb(179, 179, 179);
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 17px;
+    background-color: rgb(228, 228, 228);
+}
+
+/* links */
+
+.odkazy {
+    text-decoration: underline;
+    color: rgb(7, 7, 7);
+}
+
+.odkazy:hover {
+    color: rgb(97, 97, 97);
+}
+
+/* footer */
+
+.f {
+    font-size: 21px;
+}
+
+/* socials */
+
+.fa-instagram {
+    margin: 2px;
+    font-size: 25px;
+    color: #999999;
+}
+
+.fa-instagram:hover {
+    color: white;
+}
+
+.fa-github {
+    margin: 2px;
+    font-size: 25px;
+    color: #999999;
+}
+
+.fa-github:hover {
+    color: white;
+}
+
+.fa-envelope {
+    margin: 2px;
+    font-size: 25px;
+    color: #999999;
+}
+
+.fa-envelope:hover {
+    color: white;
+}
+
+.fa-school {
+    margin: 2px;
+    font-size: 25px;
+    color: #999999;
+}
+
+.fa-school:hover {
+    color: white;
+}
+
+/* email */
+
+.email {
+    display: none;
+}
+
+.noselect {
+    user-select: none;
+}
+
+/* Footer border responsive */
+
+@media only screen and (max-width: 767px) {
+    .fborder {
+      border-left: none !important;
+    }
+  }
+
+/* Navbar toggle icon*/
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/navbar-toggle.png);
+  }

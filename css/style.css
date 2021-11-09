@@ -1,0 +1,157 @@
+main {
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+/* responsive bts pic */
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* nadpis */
+.nadpis {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 90px;
+  text-shadow: 6px 3px 3px #000000;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+/*
+.nadpis {
+  margin-top: -445px;
+  margin-bottom: 270px;
+  color: white;
+  font-size: 90px;
+  text-shadow: 6px 3px 3px #000000;
+  position: absolute;
+} 
+*/
+
+/* background color */
+
+.navbar {
+  background-color: rgb(4, 4, 4);
+}
+
+.bg {
+  background-color: rgb(3, 3, 3);
+}
+
+/* smooth scroll */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* links */
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+/* border */ 
+
+.gyeong {
+  border: 1px solid rgb(179, 179, 179);
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 17px;
+  background-color: rgb(228, 228, 228);
+}
+
+/* button */
+
+.btn {
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+.btn:hover {
+  color: rgb(172, 172, 172);
+}
+
+/* footer */
+
+.f {
+  font-size: 21px;
+}
+
+/* socials */
+
+.fa-instagram{
+  margin: 2px;
+  font-size: 25px;
+  color: #999999;
+}
+
+.fa-instagram:hover {
+  color: white;
+}
+
+.fa-github{
+  margin: 2px;
+  font-size: 25px;
+  color: #999999;
+}
+
+.fa-github:hover {
+  color: white;
+}
+
+.fa-envelope{
+  margin: 2px;
+  font-size: 25px;
+  color: #999999;
+}
+
+.fa-envelope:hover {
+  color: white;
+}
+
+.fa-school {
+  margin: 2px;
+  font-size: 25px;
+  color: #999999;
+}
+
+.fa-school:hover {
+  color: white;
+}
+
+/* email */
+
+.email {
+  display: none;
+}
+
+.noselect {
+  user-select: none;
+}
+
+/* Navbar toggle icon*/
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../img/navbar-toggle.png);
+}
+
+/* Footer border responsive */
+
+@media only screen and (max-width: 767px) {
+  .fborder {
+    border-left: none !important;
+  }
+}
+

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Profilová stránka</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/odkazy.css">
+
+    <!-- icon -->
+    <link rel="icon" href="img/army-icon.png">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a class="navbar-brand" href="#"><img src="img/army-logo.png" height="40" alt="BTS"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Odkazy<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <h1 class="pt-3 text-center">Užitečné odkazy</h1>
+    </header>
+    <main class="container pt-1">
+        <div class="gyeong">
+            <h2 class="text-center">Software</h2>
+            <div class="container-fluid">
+                <ul>
+                    <li><a class="odkazy" href="https://code.visualstudio.com/" target="blank">Visual Studio Code</a></li>
+                    <li><a class="odkazy" href="https://visualstudio.microsoft.com/cs/vs/" target="blank">Visual Studio</a></li>
+                    <li><a class="odkazy" href="https://www.bloodshed.net/" target="blank">Dev-C++</a></li>
+                    <li><a class="odkazy" href="https://netbeans.apache.org/" target="blank">NetBeans</a></li>
+                    <li><a class="odkazy" href="https://www.geany.org/" target="blank">Geany</a></li>
+                    <li><a class="odkazy" href="https://brackets.io/" target="blank">Brackets</a></li>
+                    <li><a class="odkazy" href="https://macromates.com/" target="blank">TextMate</a></li>
+                    <li><a class="odkazy" href="https://www.gnu.org/software/emacs/" target="blank">Emacs</a></li>
+                    <li><a class="odkazy" href="https://notepad-plus-plus.org/" target="blank">Notepad++</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="gyeong">
+            <h2 class="text-center">Studijní materiály</h2>
+            <ul>
+                <li><a class="odkazy" href="https://www.w3schools.com/" target="blank">W3Schools</a></li>
+                <li><a class="odkazy" href="https://javascript.info/" target="blank">The Modern JavaScript Tutorial</a></li>
+                <li><a class="odkazy" href="https://www.programiz.com/" target="blank">Programiz</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </main>
+    <footer class="text-center bg text-light container-fluid p-3">
+        <div class="f row">
+            <div class="col-md-6 text-left noselect">
+                &copy; 2021 - Růženka Perinová IT2 <i id="email" class="pl-2 fas fa-envelope"></i> <span class="email" id="emailText">it2019@sspu-opava.cz</span>
+            </div>
+            <script>
+                const email = document.getElementById('email');
+                const emailText = document.getElementById('emailText');
+                let cislo = 0;
+
+                email.addEventListener('click', function() {
+                    emailText.classList.toggle('email');
+                });
+            </script>
+            <div class="fborder border-left col-md-6 text-left">
+            <a href="https://github.com/ItzHaru" target="blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.sspu-opava.cz/cs/" target="blank"><i class="fas fa-school"></i></a>
+            <a href="https://www.instagram.com/itzh4ru/" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9a71760520.js" crossorigin="anonymous"></script>
+</body>
+</html>
